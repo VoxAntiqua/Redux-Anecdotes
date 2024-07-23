@@ -1,7 +1,7 @@
 import { useSelector } from 'react-redux'
 
 const Notification = () => {
-  const notification = useSelector(state => state.anecdotes[0].id) // temporary display
+  const notification = useSelector(state => state.notification) // temporary display
   const style = {
     border: 'solid',
     padding: 10,
